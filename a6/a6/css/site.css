@@ -10,3 +10,6 @@ a:hover { color: #00638b; }
 a:active { color: #00638b; }
 a:focus { color: #00638b; }
 table, th, td{ border: 1px solid #333; }
+li {
+    font-weight: bold;
+}
