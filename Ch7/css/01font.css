@@ -33,7 +33,7 @@
 	/* #fantasyFont */
     
 #fantasyFont { font-family: fantasy; }
-	h1 { font-size: 72px; 
+	
   /* font-size 
   	most common values are: px, %, and em
   	keywords: xx-small, x-small, small, medium, large, x-large, and xx-large
@@ -45,7 +45,7 @@
   */
 
 
-
+h1 { font-size: 72px; 
   /* font-style 
   italic - best if italicizing a font
   normal - default style
