@@ -4,12 +4,15 @@ p,dd { line-height: 1.35em;}
 
 /* ADD EXAMPLES BELOW */
 /*text-align values: right, center, left or justify */
-
-
+#textAlign dt { text-align: right; } 
+#textAlign dd { text-align: right; }
 
 /*text-decoration values: line-through, none, overline, underline */
 /* add a line through the text */
-
+.throughText { text-decoration: line-through; } 
+.underText  { text-decoration: underline; }
+.overText  { text-decoration: overline; }
+.underText  { text-decoration: underline; }
 
 /* remove a line from under an anchor element */
 
@@ -22,6 +25,7 @@ p,dd { line-height: 1.35em;}
 
 
 /* indent the first line of text */
-
+.textIndent dd  { text-indent: 20px; }
 
 /* capitalize, lowercase, uppercase */
+.textCapital  { text-transform: capitalize; }
