@@ -11,9 +11,23 @@ body{
   
 /* ADD EXAMPLES BELOW */
 /*Add color name*/
+.black { color: ; /* this is the default color */ }
+.red { color: ; }
+.green { color: ; }
+.blue { color:  ; }
+.olive { color: ; }
+/* a note about "gray" vs "grey" */
+.gray { color:  ; }
+.grey { color:  ; /*but the property "color" can't be "colour" */ }
 
 
 /*Add color hex value */
+#hex .red{ color:#ff000 ; }
+#hex .green{ color:#00ff00 ; }
+#hex .blue{ color:#000ff ; }
+#hex .yellow{ color:#ffff00  ; }
+#hex .magenta{ color:ff00ff  ; }
+#hex .cyan{ color: #00ffff  ; }
 
 
 /*Add color rgb value*/
