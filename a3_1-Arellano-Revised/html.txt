@@ -1,7 +1,9 @@
+<!--Wrong file extension. Should be html-->
 <!doctype html>
 <html lang="en-us">
 	<head>
 		<meta charset="utf-8">
+<!--Missing author meta tag-->
 		<title>FOWD: Learning HTML</title>
 	<style>
    			table, th, td{
@@ -10,14 +12,19 @@
   </style>
 	</head>
 	<body>
+<!--Missing header div-->
 		<h1>Foundations of Web Design</h1>
 		<h2>Learning HTML</h2>
+<!--Missing end div-->
+<!--ul missing id attribute with value of nav-->
 			<ul>
 			<li><a href="index.html">Home</a></li>
 			<li>HTML</li>
+<!--Missing link to CSS page-->
 			<li>CSS</li>
 			<li>JavaScript</li>
 			</ul>
+<!--Missing main div-->
 		<h3>Adding a Movie</h3>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/xpjpqd8BwSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<h3>Adding a Table</h3>
@@ -45,6 +52,6 @@
 			<td colspan="2">Author: Thomas Michaud</td>
 			</tr>
 			</table>
-			
+<!--Missing end div-->			
 	</body>
 </html>
