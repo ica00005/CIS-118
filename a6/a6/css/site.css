@@ -10,6 +10,7 @@ a:hover { color: #00638b; }
 a:active { color: #00638b; }
 a:focus { color: #00638b; }
 table, th, td{ border: 1px solid #333; }
+<!--I went back and looked at the instructions. This was not on them. The list elements do not have to be bold. Delete it.-->
 li {
     font-weight: bold;
 }
