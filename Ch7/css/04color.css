@@ -1,46 +1,31 @@
 body{
-  font-family: Georgia;
-  font-size: 16px;
+  	font-family: Georgia;
+  	font-size: 16px;
   }
   .container {width: 800px; margin: 0 auto;
   }
+ 
  p, li{
-  line-height: 1.5em;
- }  
+ 	line-height: 1.5em;
+ }
+  
 /* ADD EXAMPLES BELOW */
 /*Add color name*/
-.black { color: black ; /* this is the default color */ }
-.red { color: red ; }
-.green { color: green ; }
-.blue { color: blue  ; }
-.olive { color: olivedrab ; }
-/* a note about "gray" vs "grey" */
-.gray { color: gray ; }
-.grey { color: grey ; /*but the property "color" can't be "colour" */ }
+
+
 /*Add color hex value */
-#hex .red{ color: #ff0000 ; }
-#hex .green{ color: #00ff00 ; }
-#hex .blue{ color: #0000ff ; }
-#hex .yellow{ color: #ffff00  ; }
-#hex .magenta{ color: #ff00ff  ; }
-#hex .cyan{ color: #00ffff  ; }
+
+
 /*Add color rgb value*/
-#rgb .red{ color: rgb(255,0,0); }
-#rgb .green{ color: rgb(0,255,0); }
-#rgb .blue{ color: rgb(0,0,255); }
+
+
 /*Add color rgba value*/
-#rgba .red{ color: rgba(255, 0, 0,.5); }
-#rgba .green{ color: rgba(0, 255, 0,.5); }
-#rgba .blue{ color: rgba(0, 0, 255,.5); }
+
+
 /*Add color hsl value*/
-#hsl .red{ color: hsl(0, 100%, 50%); }
-#hsl .green{ color: hsl(120, 100%, 50%); }
-#hsl .blue{ color: hsl(240, 100%, 50%); }
+
+
 /*Add color hsla value*/
-#hsla .red{ color: hsla(0, 100%, 50%, .5); }
-#hsla .green{ color: hsla(120, 100%, 50%, .5); }
-#hsla .blue{ color: hsla(240, 100%, 50%, .5); }
+
+
 /*Add text a text value*/
-h1 { text-shadow: 2px 2px 0px orange; }
-/*you can also have more than one text-shadow separated by a comma */
-h1 { text-shadow: 1px 1px 0px white, 2px 2px 0px orange ; }

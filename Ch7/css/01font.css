@@ -19,21 +19,21 @@
   */
   
 	/* #sansFont */
-#sansFont { font-family: "Trebuchet MS", Verdana", sans-serif; }
+
 	
 	/* #serifFont */
 
-#serifFont { font-family: Georgia, serif; }	
+	
 	/* #monoFont */
-#monoFont { font-family: "Courier New", monospace; }
+
 	
 	/* #cursiveFont */
-#cursiveFont { font-family: cursive; }
+
 	
 	/* #fantasyFont */
     
-#fantasyFont { font-family: fantasy; }
-	
+
+
   /* font-size 
   	most common values are: px, %, and em
   	keywords: xx-small, x-small, small, medium, large, x-large, and xx-large
@@ -45,7 +45,7 @@
   */
 
 
-h1 { font-size: 72px; 
+
   /* font-style 
   italic - best if italicizing a font
   normal - default style
