@@ -1,8 +1,8 @@
 body {
-  font-family: "Lucida Handwritng", cursive; 
-  font-size: 20px; 
-    background-color: saddlebrown;
-  }
+ font-family: "Lucida Handwriting", cursive;
+ font-size: 20px;
+ background-color: saddlebrown;
+}
 div {
   background-color: white;
   width: 600px;
@@ -12,32 +12,32 @@ div {
 }
 #date {
   text-align: right;
-  font-size: 22px; 
-  line-height: 1.25; 
+  font-size: 22px;
+  line-height: 1.25;
 }
 #greeting {
- font-size: 26px; 
-  line-height: 1.5; 
+  font-size: 26px;
+  line-height: 1.5;
 }
 .bodyText {
-text-indent: 50px; 
+  text-indent: 50px;
   line-height: 1;
 }
-#farewell {
- text-align: right;
-  font-size: 26px; 
-  line-height: 1; 
+#farwell {
+  text-align: right;
+  font-size: 26x;
+  line-height: 1;
 }
 #signature {
- text-align: right;
-  font-size: 40px; 
-  line-height: 1; 
+  text-align: right;
+  font-size: 40px;
+  line-height: 1;
 }
 footer {
- color: yellow;
+  color: yellow;
   font-family: Arial;
-  font-size: 12px; 
-  line-height: 1.25; 
+  font-size: 12px;
+  line-height: 1.25;
 }
 a { color: yellow; }
 .misspelledText { text-decoration: line-through wavy; }
