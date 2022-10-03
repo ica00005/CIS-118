@@ -41,7 +41,7 @@ footer {
 }
 a { color: yellow; }
 .misspelledText { text-decoration: line-through wavy; }
-.underinetext { text-decoration: underline; }
+.underlinetext { text-decoration: underline; }
 .emphaticText {
 text-transform: uppercase;
   font-weight: bolder;
