@@ -1,11 +1,12 @@
 /* demo css */
 .container {
-	width: 50%;
-	margin: 10% auto;
+width: 50%;
+margin: 10% auto;
 }
 /* write example css below */
-.box{
-
-	border-color: blue red green grey
-border width: 5px 10px 5px 10px;
-}
+.box {
+color:red;
+border: 10px solid gray;
+padding-top:10;
+padding-right:10;
+padding-bottom:}
