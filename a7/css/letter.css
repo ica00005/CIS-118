@@ -43,6 +43,6 @@ a { color: yellow; }
 .misspelledText { text-decoration: line-through wavy; }
 .underlineText { text-decoration: underline; }
 .emphaticText {
-text-transform: uppercase;
+  text-transform: uppercase;
   font-weight: bolder;
 }
