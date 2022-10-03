@@ -40,3 +40,9 @@ text-indent: 50px;
   line-height: 1.25; 
 }
 a { color: yellow: }
+.misspelledText { text-decoration: line-through wavy; }
+.underinetext { text-decoration: underline; }
+.emphaticText {
+text-transform: uppercase;
+  font-weight: bolder;
+}
