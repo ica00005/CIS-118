@@ -10,4 +10,33 @@ div {
   padding: 50px;
   margin: 20px;
 }
-
+#date {
+  text-align: right;
+  font-size: 22px; 
+  line-height: 1.25; 
+}
+#greeting {
+ font-size: 26px; 
+  line-height: 1.5; 
+}
+.bodyText {
+text-indent: 50px; 
+  line-height: 1;
+}
+#farewell {
+ text-align: right;
+  font-size: 26px; 
+  line-height: 1; 
+}
+#signature {
+ text-align: right;
+  font-size: 40px; 
+  line-height: 1; 
+}
+#footer {
+ font-color: yellow;
+  font-family: Arial;
+  font-size: 12px; 
+  line-height: 1.25; 
+}
+a { color: yellow: }
