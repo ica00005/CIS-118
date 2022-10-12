@@ -21,3 +21,6 @@ demo default CSS [don't touch]
 
 /* OVERFLOW
 -----------------------------------------------*/
+.box {
+	height: 300px;
+}
