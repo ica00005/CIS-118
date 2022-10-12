@@ -44,6 +44,6 @@ scroll down to enter in example code
 }
 /*overflow method */
 .primary {
-	overflow: hidden;
+	overflow: auto;
 	width: 100%;
 }
