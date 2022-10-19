@@ -2,44 +2,85 @@
 	=LAYOUT 
 	 WRITE YOUR CSS RULES BELOW
 --------------------------------------*/
-.container{
-	width: 90%;
-	margin:0px auto; /* centers content on screen */
+.container {
+	width: 960px;
+	margin: 0 auto;	
 }
-
-.header{
+.header {
+	width: 460px;
+	margin: 0 10px;
+	float: left;
+}
+.navbar {
+	width: 460px;
+	margin: 0 10px;
+	float: left;
+}
+.primary {
+	width: 620px;
+	margin: 0 10px;
+	float: left;
+}
+.secondary {
+	width: 300px;
+	margin: 0 10px;
+	float: left;
+}
+.footer {
+	width: 940px;
+	margin: 0 10px;
+	clear: both;
+}
+* {
+	box-sizing: border-box;
+}
+.group {
+	oveflow: auto;
+	width: 100%;
+}
+.group:after {
+	content: "";
+	display: table;
+	clear: both; 
+}
+.header {
 	width: 47.9166667%;
-	margin: 0 1.0416667px;
+	margin: 0 1.046667%;
+	float: left; 
+}
+.navbar {
+	width: 47.9166667%;
+	margin: 0 1.046667%;
 	float: left;
 }
-.navbar{
-	width: 47.9166667%px;
-	margin: 0 1.0416667%px;
-	float: left;
-}
-
-.primary{
-	width: 64.5833333%px;
-	margin: 0 1.0416667%px;
+.primary {
+	width: 64.5833333%;
+	margin: 0 1.0416667%;
 	float: left;
 }
 .secondary {
 	width: 31.25%;
-	margin: 0 1,0416667px;
+	margin: 0 1.0416667%;
 	float: left;
 }
-.footer{
+.footer {
 	width: 97.9166667%;
-	margin: 0 1.0416667%;
-	clear: both; /*use this value to clear floats above container */
+	margin: 0 1.0416667%
+	clear: both; 
 }
-/*clearing nested floats in containing element */
-
-.group:after{
-	content: " ";
-	display: block;
-	clear: both;
+.container {
+	width: 90%;
+	margin: 0 auto;
 }
 body {
-	margin 0px;
-	
+	margin: 0;
+	min-width: 320px;
+}
+.container {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+img {
+	max-width: 100%;
+}
