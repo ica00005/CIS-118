@@ -8,29 +8,29 @@
 }
 
 .header{
-	width: 460px;
-	margin: 0 10px;
+	width: 47.9166667%;
+	margin: 0 1.0416667px;
 	float: left;
 }
 .navbar{
-	width: 460px;
-	margin: 0 10px;
+	width: 47.9166667%px;
+	margin: 0 1.0416667%px;
 	float: left;
 }
 
 .primary{
-	width: 620px;
-	margin: 0 10px;
+	width: 64.5833333%px;
+	margin: 0 1.0416667%px;
 	float: left;
 }
 .secondary {
-	width: 300px;
-	margin: 0 10px;
+	width: 31.25%;
+	margin: 0 1,0416667px;
 	float: left;
 }
 .footer{
-	width: 940px;
-	margin: 0 10px;
+	width: 97.9166667%;
+	margin: 0 1.0416667%;
 	clear: both; /*use this value to clear floats above container */
 }
 /*clearing nested floats in containing element */
