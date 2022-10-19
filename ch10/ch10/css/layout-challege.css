@@ -84,3 +84,8 @@ body {
 img {
 	max-width: 100%;
 }
+.col-3{
+	width: 300px;
+	margin: 0 10px;
+	float: left;
+}
