@@ -3,21 +3,20 @@
 	 WRITE YOUR CSS RULES BELOW
 --------------------------------------*/
 .container {
-	width:960px;
-	margin: 0 auto;
+	width: 960px;
+	margin: 0 auto;	
 }
-.header{
+.header {
 	width: 460px;
 	margin: 0 10px;
 	float: left;
 }
-.navbar{
+.navbar {
 	width: 460px;
 	margin: 0 10px;
 	float: left;
 }
-
-.primary{
+.primary {
 	width: 620px;
 	margin: 0 10px;
 	float: left;
@@ -27,24 +26,61 @@
 	margin: 0 10px;
 	float: left;
 }
-.footer{
+.footer {
 	width: 940px;
 	margin: 0 10px;
 	clear: both;
 }
-
-/*clearing nested floats in containing element */
-
-.group:after{
-	content: " ";
-	display: block;
-	clear: both;
+* {
+	box-sizing: border-box;
 }
-
-
-/* 
-	=RESPONSIVE LAYOUT 
---------------------------------------*/
-/* for 960 or less*/
-/* Bring back our FLUID LAYOUT */
-
+.group {
+	oveflow: auto;
+	width: 100%;
+}
+.group:after {
+	content: "";
+	display: table;
+	clear: both; 
+}
+.header {
+	width: 47.9166667%;
+	margin: 0 1.046667%;
+	float: left; 
+}
+.navbar {
+	width: 47.9166667%;
+	margin: 0 1.046667%;
+	float: left;
+}
+.primary {
+	width: 64.5833333%;
+	margin: 0 1.0416667%;
+	float: left;
+}
+.secondary {
+	width: 31.25%;
+	margin: 0 1.0416667%;
+	float: left;
+}
+.footer {
+	width: 97.9166667%;
+	margin: 0 1.0416667%
+	clear: both; 
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+body {
+	margin: 0;
+	min-width: 320px;
+}
+.container {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+img {
+	max-width: 100%;
+}
