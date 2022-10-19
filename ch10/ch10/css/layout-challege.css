@@ -3,7 +3,7 @@
 	 WRITE YOUR CSS RULES BELOW
 --------------------------------------*/
 .container{
-	width: 960px;
+	width: 90%;
 	margin:0px auto; /* centers content on screen */
 }
 
