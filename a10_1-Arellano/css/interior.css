@@ -43,3 +43,9 @@ img {
     width: 90%;
     min-width: 0;
   }
+#fluid > #main {
+  width: auto;
+  float: none;
+  background-color: #fff;
+  }
+  #fluid
