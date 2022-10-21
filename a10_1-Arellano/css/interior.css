@@ -48,4 +48,8 @@ img {
   float: none;
   background-color: #fff;
   }
-  #fluid
+  #fluid > secondary {
+    width: auto;
+    float: none:
+  }
+}
