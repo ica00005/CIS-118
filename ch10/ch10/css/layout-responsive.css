@@ -84,3 +84,14 @@ body {
 img {
 	max-width: 100%;
 }
+.container{
+	width: 90%;
+	point for 960px
+}
+.header{
+	width: 47.9166667%;
+	margin: 0.10416667%;
+	.primary{
+		width: 6.5833333%;
+		margin: 0.1416667%;
+		background:
