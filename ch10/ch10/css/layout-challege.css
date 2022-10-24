@@ -2,90 +2,118 @@
 	=LAYOUT 
 	 WRITE YOUR CSS RULES BELOW
 --------------------------------------*/
+/*
+	=Fixed LAYOUT 
+	 WRITE YOUR CSS RULES BELOW
+--------------------------------------*/
 .container {
-	width: 960px;
-	margin: 0 auto;	
+	width:960px;
+	margin: 0 auto; /*center layout */
 }
-.header {
+.header{
 	width: 460px;
-	margin: 0 10px;
 	float: left;
+	margin: 0 10px;
 }
-.navbar {
+.navbar{
 	width: 460px;
-	margin: 0 10px;
 	float: left;
+	margin: 0 10px;
 }
-.primary {
+.primary{
 	width: 620px;
-	margin: 0 10px;
 	float: left;
+	margin: 0 10px;
 }
 .secondary {
 	width: 300px;
-	margin: 0 10px;
 	float: left;
+	margin: 0 10px;
 }
-.footer {
+.footer{
 	width: 940px;
 	margin: 0 10px;
-	clear: both;
 }
-* {
-	box-sizing: border-box;
-}
-.group {
-	oveflow: auto;
+/*clearing nested floats in containing element */
+/*
+ .group{
 	width: 100%;
+	overflow: auto;
 }
-.group:after {
-	content: "";
-	display: table;
-	clear: both; 
-}
-.header {
-	width: 47.9166667%;
-	margin: 0 1.046667%;
-	float: left; 
-}
-.navbar {
-	width: 47.9166667%;
-	margin: 0 1.046667%;
-	float: left;
-}
-.primary {
-	width: 64.5833333%;
-	margin: 0 1.0416667%;
-	float: left;
-}
-.secondary {
-	width: 31.25%;
-	margin: 0 1.0416667%;
-	float: left;
-}
-.footer {
-	width: 97.9166667%;
-	margin: 0 1.0416667%
-	clear: both; 
-}
-.container {
-	width: 90%;
-	margin: 0 auto;
-}
-body {
-	margin: 0;
-	min-width: 320px;
-}
-.container {
-	width: 90%;
-	max-width: 960px;
-	margin: 0 auto;
-}
-img {
-	max-width: 100%;
+*/
+.group:after{
+	content: " ";
+	display: block;
+	clear: both;
 }
 .col-3{
 	width: 300px;
 	margin: 0 10px;
+	float: left;
+}
+/*	Fluid Layout Challenge
+	=LAYOUT 
+	 WRITE YOUR CSS RULES BELOW
+--------------------------------------*/
+
+/* make sure the layout doesn't get any smaller than 320px */
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+/* make sure the layout doesn't get any larger than 960px */
+.container {
+	width:90%;/* arbitrary starting point for 960px */
+	max-width: 960px;
+	margin: 0 auto; /*center layout */
+}
+/* add in for fluid image */
+img{
+	max-width: 100%;
+}
+.header{
+	width: 47.9166667%; /* 460px / 960 */
+	margin: 0 1.0416667%; /* 10px;*/
+	float: left;
+}
+.navbar{
+	width: 47.9166667%; /* 460px / 960 */
+	margin: 0 1.0416667%; /* 10px;*/
+	float: left;
+}
+.primary{
+	width: 64.5833333%; /* 620px/960px */
+	margin: 0 1.0416667%; /* 10px;*/
+	float: left;
+}
+.secondary {
+	width: 31.25%; /* 300px / 960 */
+	margin: 0 1.0416667%; /* 10px;*/
+	float: left;
+}
+.footer{
+	width: 97.9166667%; /* 940px / 960 */
+	margin: 0 1.0416667%; /* 10px;*/
+	clear: both;
+}
+/*clearing nested floats in containing element */
+/*
+.group{
+	width: 100%;
+	overflow: auto;
+}
+*/
+/* We are using the W3Schools Modern Clearfix solution */
+.group:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.col-3 {
+	width: 31.25%; /* 300px / 960 */
+	margin: 0 1.0416667%; /* 10px;*/
 	float: left;
 }
