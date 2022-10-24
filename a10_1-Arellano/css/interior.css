@@ -10,7 +10,7 @@
   float: left;
 }
 #secondary {
-  width: auto;
+  width: 300px;
   margin-right: 10px;
   margin-left: 10px;
   float: left;
@@ -39,17 +39,17 @@ dd {
 img {
   width: 100%;
 }
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   #fluid > #container {
-    width: auto;
+    width: 90%;
     min-width: 0;
   }
  #fluid > #main {
-   width: auto;
-   float: none;
+   width: 960px;
+   float: ;
    background-color: #fff;
   }
- #fluid > #secondary {
+ #fluid #secondary {
    width: auto;
    float: none;
   }
