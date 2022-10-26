@@ -9,3 +9,22 @@ a:active		{color: #911;}
 
 /* Vertical Navigation Styling
 ------------------------------------ */
+nav[role="navigation"] ul a:focus,
+nav[role="navigation"] ul a:hover {
+	background: #ddd;
+}
+nav[role="navgation"] a {
+	text-decoration: none;
+}
+current a {
+	color: #333
+}
+@media screen and (max-width: 40em) {
+	nav[role="navigation"] ul {
+		float: none;
+		width: auto;
+		border-right: none;
+	}
+}
+<meta name="viewport"
+content="width=
