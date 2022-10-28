@@ -29,7 +29,7 @@ dd {
     text-align: center;
   }
 #container {
-  postition: relative;
+  positition: relative;
 }
 #header {
   float: left;
