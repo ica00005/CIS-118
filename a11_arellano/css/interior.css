@@ -61,13 +61,13 @@ img {
   float: left;
   width: 280px;
 }
-nav ul {
+ul.nav {
   background-color: transparent;
   float: right;
   width: 350;
   margin-top: 20px;
 }
-li > nav ul {
+ul.nav li {
   display: block;
   padding-top: 5px;
   padding-top: 5px;
@@ -78,5 +78,6 @@ li > nav ul {
   border: 1px solid #aaa;
   text-decoration: none;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-  
+}
+
   
