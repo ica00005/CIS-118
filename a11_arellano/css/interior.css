@@ -61,7 +61,7 @@ dd {
     text-align: center;
   }
 #container {
-  positition: relative;
+  position: relative;
 }
 #header {
   float: left;
