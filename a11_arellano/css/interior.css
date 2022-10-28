@@ -19,6 +19,15 @@ dd {
   line-height: 1.5em;
   margin-bottom: 1.5em;
 }
+ #fluid #nav {
+    margin-top: 0;
+    width: 98%;
+    padding: 4px;
+}
+  #fluid #nav li {
+    display: block;
+    text-align: center;
+  }
 #container {
   postition: relative;
 }
@@ -85,12 +94,4 @@ img {
    width: auto;
    float: none;
   }
-  #fluid #nav {
-    margin-top: 0;
-    width: 98%;
-    padding: 4px;
-}
-  #fluid #nav li {
-    display: block;
-    text-align: center;
-  }
+ 
