@@ -25,3 +25,20 @@ nav[role="navigation"] ul {
   margin-top: 10px;
  
 }
+
+@media screen and (max-width:43.375em) {
+  	h1, nav[role="navigation"] ul {
+    		width: auto;
+    		float: none;
+    		margin-bottom: 5%;
+    /* helps to center nav between the headers */
+  }
+}
+
+@media screen and (max-width: 22.5em) {
+  nav[role="navigation"] li a {
+    display: block;
+    border-bottom: 1px solid #ccc;
+  }
+}
+
