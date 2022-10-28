@@ -12,4 +12,16 @@ a:active		{color: #333; background:#F7A236;}
 
 /* Horiztonal Navigation Styling
 ------------------------------------ */
-
+h1 {
+	width:48.3333333%
+		float:left
+h1 {
+  width: 48.3333333%;   /* 580px ÷ 1200px */
+  float: left;
+}
+nav[role="navigation"] ul {
+  width: 48.3333333%;   
+  float: left;
+  margin-top: 10px;
+ 
+}
