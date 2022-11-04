@@ -39,14 +39,10 @@ label and input for Subject -->
 A textarea box the visitor can write what they need-->
 
 		<span>
-		  <input type="submit" name="Submit" value="Submit" />
-		  
-		  <!-- The contact_process will check if these fields were
-		  completed in older browsers. 
-		  However, you can use the HTML5 required attribute
-		  for modern browsers -->
+		  <input type="text" name="Submit" value="Submit" />
+		   
 		  <input type="hidden" name="required" value="name email" />
-		 
+			<texarea name="message" id="form-message" required></textarea>
 		 
 		  <!-- this input sends the message from response.text as an email
 		  The document can be found in the autoresponse folder
