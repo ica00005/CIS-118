@@ -110,4 +110,15 @@ padding: 4px;
 display: block;
 text-align: center;
 }
+.footer {
+width: 940px;
+margin: 0 __px;
+clear:  both;
+<!--Use this to clear the floats above container and to future-proof it.-->
+}
+.group:after {
+     content: "";
+     display: table;
+     clear: both;
+}
 }
