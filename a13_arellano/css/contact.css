@@ -1,4 +1,4 @@
-.container{
+..container{
 	width: 90%;
 }
 fieldset{
@@ -23,7 +23,7 @@ width:50%;
 @media screen and (max-width: 32em) {
 body{
 	margin: 0;
-		min-width: 320px;
+		mix-width: 320px;
 	}
 	form,fieldset{
 		width: 100%;
