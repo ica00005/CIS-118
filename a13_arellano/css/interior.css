@@ -87,6 +87,11 @@ float: left;
 #fluid img {
 width: 100%;
 }
+footer {
+  text-align: center;
+  padding: 3px;
+
+}
 @media screen and (max-width: 800px){
 #fluid #container {
 width: 90%;
