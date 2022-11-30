@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" contents="Israel Arellano">
+		<title>FOWD: Learning JS</title>
+		<link rel="stylesheet" href="css/site.css">
+		<link rel="stylesheet" href="css/interior.css">
+		<link rel="stylesheet" href="css/gallery.css">
+		
+	</head>
+	<body id= "fluid">
+<div id="container">
+<div id="header">
+<h1>Foundations of Web Design</h1>
+<h2>Learning JS</h2>
+
+</div>
+
+<ul id="nav" role="navigation">
+<li><a href="index.html">Home</a></li>
+<!--The link doesn't work because you have html capitalized and it should be html.html-->	
+<li><a href="html.html">HTML</a></li>
+<li><a href="css.html">CSS</a></li>
+<li class="current"><a href="js.html">JavaScript</a></li>
+</ul>
+	<div id="gallery">
+	<h3>Creating a Photo Gallery</h3>		
+<div class="full-img" id="fullImgBox">
+		<img src="images/woman-in-field-lg.jpg" id="fullImg">
+		<span onclick="closeFullImg()">X</span>
+	</div>
+	<div class="img-gallery">
+		<img src="images/woman-in-field-lg.jpg" onclick="openFullImg(this.src)">
+		<img src="images/tree-lg.jpg" onclick="openFullImg(this.src)">
+		<img src="images/fisherman-lg.jpg" onclick="openFullImg(this.src)">
+		<img src="images/field-yellow-lg.jpg" onclick="openFullImg(this.src)">
+		<img src="images/b&w-landscape-lg.jpg" onclick="openFullImg(this.src)">
+		<img src="images/download.jfif" onclick="openFullImg(this.src)">
+		<img src="images/images.jpg" onclick="openFullImg(this.src)">
+		<img src="images/The-Most-Beautiful-Flowers-in-the-World-With-Name-and-Picture.jpg" onclick="openFullImg(this.src)">
+		
+	<script>
+	var fullImgBox = document.getElementById("fullImgBox");
+var fullImg = document.getElementById("fullImg");
+		
+function openFullImg(pic){
+	fullImgBox.style.display = "flex";
+	fullImg.src = pic;
+}
+function closeFullImg(){
+	fullImgBox.style.display = "None";
+}	
+
+	</script>	
+	</div>
+	</div>
+	</div>
+<footer>
+© 2022 | Israel Arellano | <a href="contact.html">Contact Me</a></li>
+</footer>
+</body>
+</html>
