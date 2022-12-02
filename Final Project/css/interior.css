@@ -1,4 +1,5 @@
 .content {
+.content {
 padding-bottom: 20px;
 background-color: #EEE;
 overflow: auto;
@@ -16,12 +17,81 @@ margin-left: 10px;
 float: left;
 }
 
+#container {
+position: relative;
+}
+#header {
+float: left;
+width: 280px;
+}
+#nav {
+background-color: transparent;
+float: right;
+width: 350px;
+margin-top: 20px;
+}
+#nav li {
+display: inline-block;
+padding: 5px 10px;
+background-color: #ddd;
+border-radius: 4px;
+border: 1px solid #aaa;
+text-decoration: none;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+#nav li:hover {
+background-color: #eee;
+}
+#nav .current {
+background-color: #fff;
+}
+.content {
+clear: both;
+}
+#container {
+width: auto;
+max-width: 960px;
+min-width: auto;
+}
+.content {
+padding-bottom: 20px;
+background-color: #EEE;
+overflow: auto;
+}
+#main {
+width: 620px;
+margin-right: 10px;
+margin-left: 10px;
+float: left;
+}
+#secondary {
+width: 300px;
+margin-right: 10px;
+margin-left: 10px;
+float: left;
+}
+.footer {
+clear:  both; 
+<!--Use this to clear the floats above container and to future-proof it.-->
+}
 
-
-
-
-
-
+dd {
+line-height: 1.5em;
+margin-bottom: 1.5em;
+}
+#container {
+position: relative;
+}
+#header {
+float: left;
+width: 280px;
+}
+#nav {
+background-color: transparent;
+float: right;
+width: 350px;
+margin-top: 20px;
+}
 #nav li {
 display: inline-block;
 padding: 5px 10px;
