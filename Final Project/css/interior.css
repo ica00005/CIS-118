@@ -18,23 +18,6 @@ float: left;
 .footer {
 clear:  both;
 }
-dd {
-line-height: 1.5em;
-margin-bottom: 1.5em;
-}
-#container {
-position: relative;
-}
-#header {
-float: left;
-width: 280px;
-}
-#nav {
-background-color: transparent;
-float: right;
-width: 350px;
-margin-top: 20px;
-}
 
 
 
