@@ -1,5 +1,4 @@
 .content {
-.content {
 padding-bottom: 20px;
 background-color: #EEE;
 overflow: auto;
@@ -16,7 +15,13 @@ margin-right: 10px;
 margin-left: 10px;
 float: left;
 }
-
+.footer {
+clear:  both;
+}
+dd {
+line-height: 1.5em;
+margin-bottom: 1.5em;
+}
 #container {
 position: relative;
 }
