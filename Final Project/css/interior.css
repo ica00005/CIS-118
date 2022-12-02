@@ -35,29 +35,7 @@ float: right;
 width: 350px;
 margin-top: 20px;
 }
-#nav li {
-display: inline-block;
-padding: 5px 10px;
-background-color: #ddd;
-border-radius: 4px;
-border: 1px solid #aaa;
-text-decoration: none;
-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-}
-#nav li:hover {
-background-color: #eee;
-}
-#nav .current {
-background-color: #fff;
-}
-.content {
-clear: both;
-}
-#container {
-width: auto;
-max-width: 960px;
-min-width: auto;
-}
+
 
 
 
