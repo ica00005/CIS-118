@@ -1,0 +1,101 @@
+<style>
+		@import url('https://fonts.googleapis.com/css?family=Bungee&display=swap');	
+			h1{font-family: Bungee, sans-serif;
+			color: white;}
+			body{background-color:#ADD8E6;}
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#nav li {
+display: inline-block;
+padding: 5px 10px;
+background-color: #ddd;
+border-radius: 4px;
+border: 1px solid #aaa;
+text-decoration: none;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+#nav li:hover {
+background-color: #eee;
+}
+#nav .current {
+background-color: #fff;
+}
+.content {
+clear: both;
+}
+#container {
+width: auto;
+max-width: 960px;
+min-width: auto;
+}
+body { background-color: ; font-family: Helvetica, Arial, sans-serif; font-size: 1em; background-image: url(../images/bg_body.png); background-repeat: repeat-x; background-position: left top; }
+h1,h2,h3,h4,h5,h6 { font-family: Georgia, serif; }
+p,li { line-height: 1.25em; }
+p { margin-bottom: .625em; }
+p>em { font-weight: bold; }
+
+<div id="footer">
+   <p>© 2022 | Israel Arellano | <a href="contact.html">Contact Me</a></p>
+</div> 
+
+
+
+		
+		
+table, th, td{ border: 1px solid #333; }
+
+
+
+
+
+
+
+
+
+blockquote { font-size: 2.5em;
+width: 16.5em;
+margin: 0 auto;
+padding: 10px 10px 10px 45px;
+color: ;
+font-family: Georgia, serif;
+font-style: oblique;
+
+background-repeat: no-repeat;
+background-position: left 8%
+}
+blockquote footer { display: block;
+  font-size: .4em;
+  color: ;
+  text-align: right;
+}
+
+
+
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+
+
+
+ul{
+        display:inline-block;
+        border:1px solid #000;
+        padding: 20px;
+}
+
+table, th, td{ border: 1px solid #333; }
+
+
+
+
