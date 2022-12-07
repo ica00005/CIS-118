@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Israel Arellano">
+		<title>Photo Gallery</title>
+		
+		<link rel="stylesheet" href="css/gallery.css">
+		
+	</head>
+	<body id= "fluid">
+<div id="container">
+<div id="header">
+
+<h1>The Spider-Man Project</h1>
+<h2>Spider-Man Villains</h2>
+
+</div>
+
+<ul id="nav" role="navigation">
+<li><a href="index.html">Home</a></li>	
+<li><a href="movies.html">Movies</a></li>
+<li class=""><a href="tobeymaguire.html">Tobey Maguire</a></li>
+<li class=""><a href="andrewgarfield.html">Andrew Garfield</a></li>
+<li class=""><a href="tomholland.html">Tom Holland</a></li>
+<li class=""><a href="itaaboutme.html">It's About Me</a></li>
+<li class="current"><a href="imagegallery.html">Image Gallery</a></li>
+</ul>			
+	<div id="gallery">
+	<h3>Photo Gallery of Spider-Man Villains</h3>		
+<div class="full-img" id="fullImgBox">
+		<img src="gallery/sandmanorigin.jpg" alt="Lizard" id="fullImg">
+		<span onclick="closeFullImg()">X</span>
+	</div>
+	<div class="img-gallery">
+		<img src="gallery/sandmanorigin.jpg" alt="Sandman" onclick="openFullImg(this.src)">
+		<img src="gallery/1a2a6d8c-f3a0-4c47-b960-e1b8fab5d104.jpg" alt="Doc Ock" onclick="openFullImg(this.src)">
+		<img src="gallery/download.jfif"  alt="Lizard" onclick="openFullImg(this.src)">
+		<img src="gallery/l-intro-1601588243.jpg" alt="Electro" onclick="openFullImg(this.src)">
+	<img src="gallery/aengmWoy5PvNiSW2Mc3mscwJs51pQM.avif"  alt="Green Goblin" onclick="openFullImg(this.src)">
+		<img src="gallery/images.jfif" alt="Venom" onclick="openFullImg(this.src)">
+		
+		
+		
+	<script>
+	var fullImgBox = document.getElementById("fullImgBox");
+var fullImg = document.getElementById("fullImg");
+		
+function openFullImg(pic){
+	fullImgBox.style.display = "flex";
+	fullImg.src = pic;
+}
+function closeFullImg(){
+	fullImgBox.style.display = "None";
+}	
+
+	</script>	
+	</div>
+	</div>
+	</div>
+<footer>
+© 2022 | Israel Arellano | <a href="contact.html">Contact Me</a>
+</footer>
+</body>
+
+</html>
