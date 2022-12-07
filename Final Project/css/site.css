@@ -49,6 +49,21 @@ li a:link {background-color: #333; color: #eee;}
 li a:visited {background-color: #333; color: #eee;} 
 li a:hover {background-color: #aaa; color: #eee;} 
 li a:active {background-color: #333; color: #eee;} 
-li.html a {background-image: url("../images/icon-html.png"); background-repeat: no-repeat; background-position: center 50%; }
-li.css a {background-image: url("../images/icon-css.png"); background-repeat: no-repeat; background-position: center 50%; }
-li.js a {background-image: url("../images/icon-js.png"); background-repeat: no-repeat; background-position: center 50%; }
+
+
+
+#nav li {
+display: inline-block;
+padding: 5px 10px;
+background-color: #ddd;
+border-radius: 4px;
+border: 1px solid #aaa;
+text-decoration: none;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+#nav li:hover {
+background-color: #eee;
+}
+#nav .current {
+background-color: #fff;
+}
