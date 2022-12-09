@@ -151,7 +151,7 @@ body { background-color: #ADD8E6; font-family: Helvetica, Arial, sans-serif; fon
 h1,h2,h3,h4,h5,h6 { font-family: Georgia, serif; }
 
 
-#nav { background-color: ; padding: 5px 10px; margin-bottom: 10px; }
+#nav { padding: 5px 10px; margin-bottom: 10px; }
 a { color: #0000FF; }
 a:link { color: #0000FF; }
 a:visited { color: #0000FF; }
@@ -198,6 +198,8 @@ text-decoration: none;
 #nav .current {
 
 }
+
+
 
 
 
